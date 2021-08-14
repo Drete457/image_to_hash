@@ -4,14 +4,14 @@ const fs = require('fs');
 const crypto = require('crypto');
 
 //write the directory here
-const dirname = "d:/";
+const dirname = "c:/";
 
-//write the file where all will be save
+//write the file where all will be save, if don't exist will create
 const fileNameHash = "hashCodes.txt";
 const fileNameImages = "imagesNames.txt";
 
 //joining path of directory 
-const directoryPath = path.join(dirname, 'example');
+const directoryPath = path.join(dirname, 'example'); //example - name of the folder you have the images
 
 //create array with the list of all files
 const filesArray = [...fs.readdirSync(directoryPath)];
