@@ -1,6 +1,6 @@
 # Convert Images to Hash and Compare 
 
-NodeJs program that convert images to Hash and compare if any image are equal 
+NodeJs program that converts images to Hash and compare if any image is equal
 
 ## Description
 
